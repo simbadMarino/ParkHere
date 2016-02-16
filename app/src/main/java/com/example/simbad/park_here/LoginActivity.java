@@ -62,8 +62,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
-    String correctPassword ="sylar1029";
-    String correctEmail = "moises.cedeno.torres@gmail.com";
+    String correctPassword ="12345678";
+    String correctEmail = "test@gmail.com";
 
 
     @Override

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.simbad.park_here.startActivityMain"
+    android:background="@drawable/startup">
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/imgBtnReg"
+        android:background="@drawable/registro"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_toLeftOf="@+id/imgBtnSignIn" />
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:id="@+id/imgBtnSignIn"
+        android:background="@drawable/login"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_alignTop="@+id/imgBtnReg"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
